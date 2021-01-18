@@ -101,8 +101,7 @@
 
   - 6/14/2019 first release
     - FTP_Backup_Template.rsc
-      - Schedules generation of *.backup* and *.rsc* file on RouterOS. Create FTP user dedicated for automatic backups. More on automatic RouterOS
-      backups can be found under dedicated project: :link: [Backup_mt by gbudny93](https://github.com/gbudny93/Backup_mt)
+      - Schedules generation of *.backup* and *.rsc* file on RouterOS. Create FTP user dedicated for automatic backups.
     - RouterOS_Auto_Upgrade.rsc
       - in progress
     - RouterOS_Create_Directory.rsc
