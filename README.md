@@ -1,7 +1,6 @@
 ## RouterOS_Useful_Scripts
 > MikroTik RouterOS Scripts for various use and shared among different projects. Repository contains ready to use scripts as well functions ready to use in larger projects. 
-**Check also another repository with scripts related strictly to MikroTik CAPsMAN automation :link: [CAPsMAN Automation Scripts](https://github.com/gbudny93/MikroTik_CAPsMAN_Automation).**
-**Here you can find script template that I use :link: [RouterOS_Script_Template](https://gist.github.com/gbudny93/8ad0899576407e5efe9323febb368796).**
+**Check also another repository with scripts related strictly to MikroTik CAPsMAN automation :link: [CAPsMAN Automation Scripts](https://github.com/lupael/MikroTik_CAPsMAN_Automation.git).**
 
 ![](https://img.shields.io/badge/scripting-routeros-important.svg)
 ![](https://img.shields.io/badge/mikrotik-routerBOARD-yellow)
@@ -76,8 +75,7 @@
 
    - 7/19/2019 
       - FTP_Backup_Template.rsc
-        - Schedules generation of *.backup* and *.rsc* file on RouterOS. Create FTP user dedicated for automatic backups. More on automatic RouterOS
-      backups can be found under dedicated project: :link: [Backup_mt by gbudny93](https://github.com/gbudny93/Backup_mt)
+        - Schedules generation of *.backup* and *.rsc* file on RouterOS. Create FTP user dedicated for automatic backups.
      - RouterOS_Auto_Upgrade.rsc
        - in progress
      - RouterOS_Create_Directory.rsc
@@ -130,7 +128,6 @@
   - *.backup* file 
   - *.rsc* file 
   
-Script is a part of  :link: [Backup_mt by gbudny93](https://github.com/gbudny93/Backup_mt) project.
 
 #### RouterOS_All_Software_Download.rsc
 > Automated download of all latest RouterOS standard packages. Tool recommended for CAPsMANs and DUDE servers
@@ -344,8 +341,8 @@ $Substring findMode=true string="string" signA="A" signB "b";
 
 **Example**
 ```
-$UserAlert message="message" treshhold=3 fileName="fileName" smtpServer=smtpServer smtpPort=smtpPort domain="@example.com" \ 
-recipient="recipient@example.com";
+$UserAlert message="message" treshhold=3 fileName="fileName" smtpServer=smtpServer smtpPort=smtpPort domain="@i4e.com.bd" \ 
+recipient="recipient@i4e.com.bd";
 ```
 
 #### RouterOS_FTP_Backup.rsc
@@ -353,8 +350,8 @@ recipient="recipient@example.com";
 
 **Example**
 ```
-$FTPBackup configName=configName backupName=backupName smtpServer=smtpServer smtpPort=smtpPort domain=@example.com \
-recipient=recipient@example.com destPath=destPath ftpUser=user ftpPassword=password ftpServer=ftpserver;
+$FTPBackup configName=configName backupName=backupName smtpServer=smtpServer smtpPort=smtpPort domain=@i4e.com.bd \
+recipient=recipient@i4e.com.bd destPath=destPath ftpUser=user ftpPassword=password ftpServer=ftpserver;
 ```
 
 #### RouterOS_Function_Template.rsc
@@ -375,4 +372,4 @@ $DisconnectPPPActveSessions;
 
 ### Authors
 
-  - Grzegorz Budny
+  - Lupael
